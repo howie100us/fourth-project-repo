@@ -2,7 +2,7 @@ name: Output Issue Event Details
 on: 
   issues:
     types: [opened, edited, deleted, labeled, unlabeled, closed, reopened]
-    workflow_dispatch: # Add this here
+  workflow_dispatch: # Add this here
 
 jobs:
   print_event_details:
